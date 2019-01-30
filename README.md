@@ -11,4 +11,5 @@ the seed. So essentially this code generates a big vector of different character
 passwords. The vector can be duplicated over and over by making the seed the master password.
 
 master.password=29852758
+
 passwords(master.password, sites=c("Work","Bank","Investment","gmail.com","yahoo.com","hotmail.com","visa","spotify"), changes=c(1,1,1,1,1,1,2,1))
