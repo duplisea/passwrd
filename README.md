@@ -9,12 +9,12 @@ You need to have R installed on your computer to use it. Rstudio is a good ide b
 
 Install by
 
-install.packages("devtools")
+    install.packages("devtools")
 
-library(devtools)
+    library(devtools)
 
-install_github("duplisea/passwrd")
+    install_github("duplisea/passwrd")
 
-master.password=29852758
+    master.password=29852758
 
-passwords(master.password, sites=c("Work","Bank","Investment","gmail.com","yahoo.com","hotmail.com","visa","spotify"), changes=c(1,1,1,1,1,1,2,1))
+    passwords(master.password, sites=c("Work","Bank","Investment","gmail.com","yahoo.com","hotmail.com","visa","spotify"), changes=c(1,1,1,1,1,1,2,1))
